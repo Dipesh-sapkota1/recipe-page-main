@@ -52,7 +52,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    margin: 0;
     background-color: var(--clr-eggshell);
   }
 /* Utilities */
@@ -85,7 +84,7 @@
 
 /* Recipe card */
 #recipe-card{
-    max-width:700px;
+    max-width:750px;
     background-color: var(--clr-white);
 }
 .recipe-title{
@@ -133,12 +132,16 @@
 } 
  
 @media(min-width:550px){
-    #recipe-card{
-        border-radius: 1em;
-        padding: 1.5rem;
+    /* body{
+        padding: 5rem;
+    } */
+    .container{
+        padding-inline: 1rem;
     }
-    .px{
-        padding-inline: 0rem;
+    #recipe-card{
+        margin: 3rem;
+        border-radius: 1em;
+        padding: 2rem;
     }
     .header-image img{
         border-radius: 0.8em;
